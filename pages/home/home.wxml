@@ -1,0 +1,10 @@
+<!--展示轮播图-->
+<w-swiper list="{{banners}}"/>
+
+<!--展示推荐的数据-->
+<w-recommend  recommends="{{recommends}}"/>
+
+<!--展示本周流行-->
+<w-popular/>
+<!--tab-control-->
+<w-tab-control  titles="{{titles}}" bind:itemclick="handleTabClick"/>
